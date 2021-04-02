@@ -1,0 +1,38 @@
+body {
+  background-repeat: no-repeat;
+}
+
+main {
+  width: 77%;
+  max-width: 1650px;
+  margin-bottom: 20px;
+}
+
+.hero {
+  margin-top: 25px;
+}
+
+.hero__title {
+  font-size: 4.9rem;
+}
+
+.hero__description {
+  padding-top: 10px;
+}
+
+.sign-up__offer {
+  height: 60px;
+  margin-bottom: 25px;
+}
+
+.sign-up__form {
+  padding: 40px;
+}
+
+.input {
+  padding: 28px 30px;
+}
+
+.sign-up__form--button {
+  margin-bottom: 15px;
+}

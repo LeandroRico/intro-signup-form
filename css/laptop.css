@@ -1,0 +1,35 @@
+body {
+  gap: 0px;
+  background-image: url('../images/bg-intro-desktop.png');
+}
+
+main {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+}
+
+.hero {
+  justify-content: center;
+  text-align: start;
+}
+
+.hero__title {
+  font-size: 4rem;
+  line-height: 55px;
+}
+
+.sign-up {
+  margin-top: 18px;
+}
+
+footer {
+  margin-bottom: -160px;
+}
+
+.attribution {
+  font-size: 1.4rem;
+}

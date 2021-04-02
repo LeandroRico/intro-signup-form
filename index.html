@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/laptop.css" media="(min-width: 850px)" />
+    <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 1200px)" />
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <h2 class="hero__title">Learn to code by watching others</h2>
+        <p class="hero__description">
+          See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but
+          understanding how developers think is invaluable.
+        </p>
+      </section>
+      <section class="sign-up">
+        <div class="sign-up__offer">
+          <p><strong>Try it free 7 days</strong> then $20/mo. thereafter</p>
+        </div>
+        <form class="sign-up__form js-form" action="submit" novalidate>
+          <div class="sign-up__form--field">
+            <input
+              type="text"
+              name="firstName"
+              placeholder="First Name"
+              class="input js-first-name"
+              aria-label="First Name"
+            />
+            <small aria-live="assertive"></small>
+          </div>
+          <div class="sign-up__form--field">
+            <input
+              type="text"
+              name="lastName"
+              placeholder="Last Name"
+              class="input js-last-name"
+              aria-label="Last Name"
+            />
+            <small aria-live="assertive"></small>
+          </div>
+          <div class="sign-up__form--field">
+            <input
+              type="email"
+              name="email"
+              placeholder="Email Address"
+              class="input js-email"
+              aria-label="Email"
+            />
+            <small aria-live="assertive"></small>
+          </div>
+          <div class="sign-up__form--field">
+            <input
+              type="password"
+              name="password"
+              placeholder="Password"
+              class="input js-password"
+              aria-label="Password"
+            />
+            <small aria-live="assertive"></small>
+          </div>
+          <button type="submit" class="sign-up__form--button">CLAIM YOUR FREE TRIAL</button>
+          <span class="sign-up__form--terms"
+            >By clicking the button, you are agreeing to our <a href="#">Terms and Services</a>
+          </span>
+          <div id="notification" class="notification" aria-live="assertive"></div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/LeandroRico" target="_blank">Leandro Rico</a>.
+      </p>
+      <script src="./js/script.js"></script>
+    </footer>
+  </body>
+</html>
