@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- [See the solution on Frontend Mentor]()
-- [Live Site URL]()
+- [See the solution on Frontend Mentor](https://www.frontendmentor.io/solutions/mobilefirst-solution-with-flexbox-css-grid-and-javascript-hjt58Qus6)
+- [Live Site URL](https://intro-signup-form-iota.vercel.app/)
 
 ## Built with
 
